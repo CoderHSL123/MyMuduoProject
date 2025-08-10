@@ -1,0 +1,3 @@
+/usr/local/hslDir/Muduo/build/CMakeFiles/hslMuduo.dir
+/usr/local/hslDir/Muduo/build/CMakeFiles/edit_cache.dir
+/usr/local/hslDir/Muduo/build/CMakeFiles/rebuild_cache.dir
