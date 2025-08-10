@@ -1,6 +1,8 @@
 CMakeFiles/hslMuduo.dir/DefaultPoller.o: \
- /usr/local/hslDir/Muduo/DefaultPoller.cc /usr/include/stdc-predef.h \
- /usr/local/hslDir/Muduo/Poller.h /usr/local/hslDir/Muduo/noncopyable.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/DefaultPoller.cc \
+ /usr/include/stdc-predef.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Poller.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -88,7 +90,8 @@ CMakeFiles/hslMuduo.dir/DefaultPoller.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/13/bits/std_abs.h /usr/local/hslDir/Muduo/EPollPoller.h \
+ /usr/include/c++/13/bits/std_abs.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/EPollPoller.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

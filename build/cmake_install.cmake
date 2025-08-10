@@ -1,4 +1,4 @@
-# Install script for directory: /usr/local/hslDir/Muduo
+# Install script for directory: /usr/local/hslDir/Muduo/MyMuduoProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/usr/local/hslDir/Muduo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/usr/local/hslDir/Muduo/MyMuduoProject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

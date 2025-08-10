@@ -1,5 +1,7 @@
-CMakeFiles/hslMuduo.dir/Logger.o: /usr/local/hslDir/Muduo/Logger.cc \
- /usr/include/stdc-predef.h /usr/local/hslDir/Muduo/Logger.h \
+CMakeFiles/hslMuduo.dir/Logger.o: \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Logger.cc \
+ /usr/include/stdc-predef.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Logger.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -167,5 +169,5 @@ CMakeFiles/hslMuduo.dir/Logger.o: /usr/local/hslDir/Muduo/Logger.cc \
  /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /usr/local/hslDir/Muduo/noncopyable.h \
- /usr/local/hslDir/Muduo/Timestamp.h
+ /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.h

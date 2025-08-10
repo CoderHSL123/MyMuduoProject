@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/local/hslDir/Muduo
+CMAKE_SOURCE_DIR = /usr/local/hslDir/Muduo/MyMuduoProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/local/hslDir/Muduo/build
+CMAKE_BINARY_DIR = /usr/local/hslDir/Muduo/MyMuduoProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/hslDir/Muduo/build/CMakeFiles /usr/local/hslDir/Muduo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles /usr/local/hslDir/Muduo/MyMuduoProject/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/hslDir/Muduo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,21 @@ hslMuduo: cmake_check_build_system
 hslMuduo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/build
 .PHONY : hslMuduo/fast
+
+# target to build an object file
+Acceptor.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Acceptor.o
+.PHONY : Acceptor.o
+
+# target to preprocess a source file
+Acceptor.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Acceptor.i
+.PHONY : Acceptor.i
+
+# target to generate assembly for a file
+Acceptor.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Acceptor.s
+.PHONY : Acceptor.s
 
 # target to build an object file
 Channel.o:
@@ -205,6 +220,36 @@ EventLoop.s:
 .PHONY : EventLoop.s
 
 # target to build an object file
+EventLoopThread.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThread.o
+.PHONY : EventLoopThread.o
+
+# target to preprocess a source file
+EventLoopThread.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThread.i
+.PHONY : EventLoopThread.i
+
+# target to generate assembly for a file
+EventLoopThread.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThread.s
+.PHONY : EventLoopThread.s
+
+# target to build an object file
+EventLoopThreadPool.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o
+.PHONY : EventLoopThreadPool.o
+
+# target to preprocess a source file
+EventLoopThreadPool.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThreadPool.i
+.PHONY : EventLoopThreadPool.i
+
+# target to generate assembly for a file
+EventLoopThreadPool.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/EventLoopThreadPool.s
+.PHONY : EventLoopThreadPool.s
+
+# target to build an object file
 InetAddress.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/InetAddress.o
 .PHONY : InetAddress.o
@@ -248,6 +293,21 @@ Poller.i:
 Poller.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Poller.s
 .PHONY : Poller.s
+
+# target to build an object file
+Socket.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Socket.o
+.PHONY : Socket.o
+
+# target to preprocess a source file
+Socket.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Socket.i
+.PHONY : Socket.i
+
+# target to generate assembly for a file
+Socket.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Socket.s
+.PHONY : Socket.s
 
 # target to build an object file
 TcpServer.o:
@@ -303,6 +363,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hslMuduo"
+	@echo "... Acceptor.o"
+	@echo "... Acceptor.i"
+	@echo "... Acceptor.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -318,6 +381,12 @@ help:
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
+	@echo "... EventLoopThread.o"
+	@echo "... EventLoopThread.i"
+	@echo "... EventLoopThread.s"
+	@echo "... EventLoopThreadPool.o"
+	@echo "... EventLoopThreadPool.i"
+	@echo "... EventLoopThreadPool.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
@@ -327,6 +396,9 @@ help:
 	@echo "... Poller.o"
 	@echo "... Poller.i"
 	@echo "... Poller.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

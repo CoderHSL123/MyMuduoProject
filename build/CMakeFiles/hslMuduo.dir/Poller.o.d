@@ -1,7 +1,9 @@
-CMakeFiles/hslMuduo.dir/Poller.o: /usr/local/hslDir/Muduo/Poller.cc \
- /usr/include/stdc-predef.h /usr/local/hslDir/Muduo/Poller.h \
- /usr/local/hslDir/Muduo/noncopyable.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/hslMuduo.dir/Poller.o: \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Poller.cc \
+ /usr/include/stdc-predef.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Poller.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,7 +54,8 @@ CMakeFiles/hslMuduo.dir/Poller.o: /usr/local/hslDir/Muduo/Poller.cc \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/enable_special_members.h \
- /usr/include/c++/13/bits/erase_if.h /usr/local/hslDir/Muduo/Channel.h \
+ /usr/include/c++/13/bits/erase_if.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Channel.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_tempbuf.h \

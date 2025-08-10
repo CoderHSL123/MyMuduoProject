@@ -1,6 +1,7 @@
 CMakeFiles/hslMuduo.dir/EPollPoller.o: \
- /usr/local/hslDir/Muduo/EPollPoller.cc /usr/include/stdc-predef.h \
- /usr/local/hslDir/Muduo/EPollPoller.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/EPollPoller.cc \
+ /usr/include/stdc-predef.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/EPollPoller.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -41,7 +42,8 @@ CMakeFiles/hslMuduo.dir/EPollPoller.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/epoll.h \
- /usr/local/hslDir/Muduo/Poller.h /usr/local/hslDir/Muduo/noncopyable.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Poller.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -86,7 +88,8 @@ CMakeFiles/hslMuduo.dir/EPollPoller.o: \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/enable_special_members.h \
- /usr/include/c++/13/bits/erase_if.h /usr/local/hslDir/Muduo/Logger.h \
+ /usr/include/c++/13/bits/erase_if.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Logger.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -184,6 +187,8 @@ CMakeFiles/hslMuduo.dir/EPollPoller.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/local/hslDir/Muduo/Timestamp.h \
- /usr/local/hslDir/Muduo/Channel.h /usr/include/c++/13/functional \
- /usr/include/c++/13/bits/std_function.h /usr/include/strings.h
+ /usr/include/linux/close_range.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Channel.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/strings.h

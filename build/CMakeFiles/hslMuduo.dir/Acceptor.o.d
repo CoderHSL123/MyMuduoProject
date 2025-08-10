@@ -1,8 +1,7 @@
-CMakeFiles/hslMuduo.dir/Channel.o: \
- /usr/local/hslDir/Muduo/MyMuduoProject/Channel.cc \
+CMakeFiles/hslMuduo.dir/Acceptor.o: \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Acceptor.cc \
  /usr/include/stdc-predef.h \
- /usr/local/hslDir/Muduo/MyMuduoProject/Channel.h \
- /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Acceptor.h \
  /usr/include/c++/13/functional \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -25,8 +24,10 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/new \
  /usr/include/c++/13/bits/exception.h /usr/include/c++/13/typeinfo \
  /usr/include/c++/13/bits/functexcept.h \
- /usr/include/c++/13/bits/exception_defines.h /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/memoryfwd.h \
+ /usr/include/c++/13/bits/exception_defines.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/noncopyable.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Channel.h \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
  /usr/include/c++/13/bits/new_allocator.h \
@@ -115,37 +116,33 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/x86_64-linux-gnu/sys/epoll.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Socket.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/epoll.h \
- /usr/local/hslDir/Muduo/MyMuduoProject/EventLoop.h \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/initializer_list \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/atomic \
- /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
- /usr/include/c++/13/limits /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h \
- /usr/local/hslDir/Muduo/MyMuduoProject/CurrentThread.h \
- /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/x86_64-linux-gnu/asm/unistd.h \
- /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
- /usr/include/x86_64-linux-gnu/bits/syscall.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -153,7 +150,7 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/Logger.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/localefwd.h \
@@ -164,6 +161,8 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/ostream_insert.h \
  /usr/include/c++/13/bits/cxxabi_forced.h \
+ /usr/include/c++/13/bits/range_access.h \
+ /usr/include/c++/13/initializer_list \
  /usr/include/c++/13/bits/basic_string.h \
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -175,11 +174,13 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/13/bits/charconv.h \
+ /usr/include/c++/13/cerrno /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
  /usr/include/c++/13/bits/locale_classes.tcc \
- /usr/include/c++/13/system_error /usr/include/c++/13/stdexcept \
- /usr/include/c++/13/streambuf /usr/include/c++/13/bits/streambuf.tcc \
+ /usr/include/c++/13/system_error \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+ /usr/include/c++/13/stdexcept /usr/include/c++/13/streambuf \
+ /usr/include/c++/13/bits/streambuf.tcc \
  /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
@@ -189,5 +190,11 @@ CMakeFiles/hslMuduo.dir/Channel.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /usr/local/hslDir/Muduo/MyMuduoProject/Logger.h
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint /usr/include/c++/13/limits \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /usr/local/hslDir/Muduo/MyMuduoProject/InetAddress.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h
