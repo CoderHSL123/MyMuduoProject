@@ -72,5 +72,9 @@ void Socket::setReusePort(bool on){
 
 void Socket::setKeepAlive(bool on){
     int optval = on?1:0;
+    /*
+        TCP 保活机制的作用是：当连接长时间没有数据传输时，
+        自动发送探测包检测对方是否在线，避免无效连接长期占用资源。
+    */
     ::setsockopt(sockfd_,SOL_SOCKET,SO_KEEPALIVE,&optval,sizeof(optval));
 }

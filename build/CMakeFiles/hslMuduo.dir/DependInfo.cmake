@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/usr/local/hslDir/Muduo/MyMuduoProject/Acceptor.cc" "CMakeFiles/hslMuduo.dir/Acceptor.o" "gcc" "CMakeFiles/hslMuduo.dir/Acceptor.o.d"
+  "/usr/local/hslDir/Muduo/MyMuduoProject/Buffer.cc" "CMakeFiles/hslMuduo.dir/Buffer.o" "gcc" "CMakeFiles/hslMuduo.dir/Buffer.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/Channel.cc" "CMakeFiles/hslMuduo.dir/Channel.o" "gcc" "CMakeFiles/hslMuduo.dir/Channel.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/CurrentThread.cc" "CMakeFiles/hslMuduo.dir/CurrentThread.o" "gcc" "CMakeFiles/hslMuduo.dir/CurrentThread.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/DefaultPoller.cc" "CMakeFiles/hslMuduo.dir/DefaultPoller.o" "gcc" "CMakeFiles/hslMuduo.dir/DefaultPoller.o.d"
@@ -20,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/usr/local/hslDir/Muduo/MyMuduoProject/Logger.cc" "CMakeFiles/hslMuduo.dir/Logger.o" "gcc" "CMakeFiles/hslMuduo.dir/Logger.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/Poller.cc" "CMakeFiles/hslMuduo.dir/Poller.o" "gcc" "CMakeFiles/hslMuduo.dir/Poller.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/Socket.cc" "CMakeFiles/hslMuduo.dir/Socket.o" "gcc" "CMakeFiles/hslMuduo.dir/Socket.o.d"
+  "/usr/local/hslDir/Muduo/MyMuduoProject/TcpConnection.cc" "CMakeFiles/hslMuduo.dir/TcpConnection.o" "gcc" "CMakeFiles/hslMuduo.dir/TcpConnection.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/TcpServer.cc" "CMakeFiles/hslMuduo.dir/TcpServer.o" "gcc" "CMakeFiles/hslMuduo.dir/TcpServer.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/Thread.cc" "CMakeFiles/hslMuduo.dir/Thread.o" "gcc" "CMakeFiles/hslMuduo.dir/Thread.o.d"
   "/usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.cc" "CMakeFiles/hslMuduo.dir/Timestamp.o" "gcc" "CMakeFiles/hslMuduo.dir/Timestamp.o.d"

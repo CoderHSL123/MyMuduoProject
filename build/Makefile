@@ -145,6 +145,21 @@ Acceptor.s:
 .PHONY : Acceptor.s
 
 # target to build an object file
+Buffer.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Buffer.o
+.PHONY : Buffer.o
+
+# target to preprocess a source file
+Buffer.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Buffer.i
+.PHONY : Buffer.i
+
+# target to generate assembly for a file
+Buffer.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Buffer.s
+.PHONY : Buffer.s
+
+# target to build an object file
 Channel.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/Channel.o
 .PHONY : Channel.o
@@ -310,6 +325,21 @@ Socket.s:
 .PHONY : Socket.s
 
 # target to build an object file
+TcpConnection.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/TcpConnection.o
+.PHONY : TcpConnection.o
+
+# target to preprocess a source file
+TcpConnection.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/TcpConnection.i
+.PHONY : TcpConnection.i
+
+# target to generate assembly for a file
+TcpConnection.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/TcpConnection.s
+.PHONY : TcpConnection.s
+
+# target to build an object file
 TcpServer.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hslMuduo.dir/build.make CMakeFiles/hslMuduo.dir/TcpServer.o
 .PHONY : TcpServer.o
@@ -366,6 +396,9 @@ help:
 	@echo "... Acceptor.o"
 	@echo "... Acceptor.i"
 	@echo "... Acceptor.s"
+	@echo "... Buffer.o"
+	@echo "... Buffer.i"
+	@echo "... Buffer.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -399,6 +432,9 @@ help:
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
+	@echo "... TcpConnection.o"
+	@echo "... TcpConnection.i"
+	@echo "... TcpConnection.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

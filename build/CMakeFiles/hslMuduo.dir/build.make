@@ -83,10 +83,24 @@ CMakeFiles/hslMuduo.dir/Acceptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hslMuduo.dir/Acceptor.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/local/hslDir/Muduo/MyMuduoProject/Acceptor.cc -o CMakeFiles/hslMuduo.dir/Acceptor.s
 
+CMakeFiles/hslMuduo.dir/Buffer.o: CMakeFiles/hslMuduo.dir/flags.make
+CMakeFiles/hslMuduo.dir/Buffer.o: /usr/local/hslDir/Muduo/MyMuduoProject/Buffer.cc
+CMakeFiles/hslMuduo.dir/Buffer.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hslMuduo.dir/Buffer.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Buffer.o -MF CMakeFiles/hslMuduo.dir/Buffer.o.d -o CMakeFiles/hslMuduo.dir/Buffer.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Buffer.cc
+
+CMakeFiles/hslMuduo.dir/Buffer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hslMuduo.dir/Buffer.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/local/hslDir/Muduo/MyMuduoProject/Buffer.cc > CMakeFiles/hslMuduo.dir/Buffer.i
+
+CMakeFiles/hslMuduo.dir/Buffer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hslMuduo.dir/Buffer.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/local/hslDir/Muduo/MyMuduoProject/Buffer.cc -o CMakeFiles/hslMuduo.dir/Buffer.s
+
 CMakeFiles/hslMuduo.dir/Channel.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Channel.o: /usr/local/hslDir/Muduo/MyMuduoProject/Channel.cc
 CMakeFiles/hslMuduo.dir/Channel.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hslMuduo.dir/Channel.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hslMuduo.dir/Channel.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Channel.o -MF CMakeFiles/hslMuduo.dir/Channel.o.d -o CMakeFiles/hslMuduo.dir/Channel.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Channel.cc
 
 CMakeFiles/hslMuduo.dir/Channel.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/hslMuduo.dir/Channel.s: cmake_force
 CMakeFiles/hslMuduo.dir/CurrentThread.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/CurrentThread.o: /usr/local/hslDir/Muduo/MyMuduoProject/CurrentThread.cc
 CMakeFiles/hslMuduo.dir/CurrentThread.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hslMuduo.dir/CurrentThread.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hslMuduo.dir/CurrentThread.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/CurrentThread.o -MF CMakeFiles/hslMuduo.dir/CurrentThread.o.d -o CMakeFiles/hslMuduo.dir/CurrentThread.o -c /usr/local/hslDir/Muduo/MyMuduoProject/CurrentThread.cc
 
 CMakeFiles/hslMuduo.dir/CurrentThread.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/hslMuduo.dir/CurrentThread.s: cmake_force
 CMakeFiles/hslMuduo.dir/DefaultPoller.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/DefaultPoller.o: /usr/local/hslDir/Muduo/MyMuduoProject/DefaultPoller.cc
 CMakeFiles/hslMuduo.dir/DefaultPoller.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hslMuduo.dir/DefaultPoller.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hslMuduo.dir/DefaultPoller.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/DefaultPoller.o -MF CMakeFiles/hslMuduo.dir/DefaultPoller.o.d -o CMakeFiles/hslMuduo.dir/DefaultPoller.o -c /usr/local/hslDir/Muduo/MyMuduoProject/DefaultPoller.cc
 
 CMakeFiles/hslMuduo.dir/DefaultPoller.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/hslMuduo.dir/DefaultPoller.s: cmake_force
 CMakeFiles/hslMuduo.dir/EPollPoller.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/EPollPoller.o: /usr/local/hslDir/Muduo/MyMuduoProject/EPollPoller.cc
 CMakeFiles/hslMuduo.dir/EPollPoller.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hslMuduo.dir/EPollPoller.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hslMuduo.dir/EPollPoller.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/EPollPoller.o -MF CMakeFiles/hslMuduo.dir/EPollPoller.o.d -o CMakeFiles/hslMuduo.dir/EPollPoller.o -c /usr/local/hslDir/Muduo/MyMuduoProject/EPollPoller.cc
 
 CMakeFiles/hslMuduo.dir/EPollPoller.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/hslMuduo.dir/EPollPoller.s: cmake_force
 CMakeFiles/hslMuduo.dir/EventLoop.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/EventLoop.o: /usr/local/hslDir/Muduo/MyMuduoProject/EventLoop.cc
 CMakeFiles/hslMuduo.dir/EventLoop.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoop.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoop.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/EventLoop.o -MF CMakeFiles/hslMuduo.dir/EventLoop.o.d -o CMakeFiles/hslMuduo.dir/EventLoop.o -c /usr/local/hslDir/Muduo/MyMuduoProject/EventLoop.cc
 
 CMakeFiles/hslMuduo.dir/EventLoop.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/hslMuduo.dir/EventLoop.s: cmake_force
 CMakeFiles/hslMuduo.dir/EventLoopThread.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/EventLoopThread.o: /usr/local/hslDir/Muduo/MyMuduoProject/EventLoopThread.cc
 CMakeFiles/hslMuduo.dir/EventLoopThread.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoopThread.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoopThread.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/EventLoopThread.o -MF CMakeFiles/hslMuduo.dir/EventLoopThread.o.d -o CMakeFiles/hslMuduo.dir/EventLoopThread.o -c /usr/local/hslDir/Muduo/MyMuduoProject/EventLoopThread.cc
 
 CMakeFiles/hslMuduo.dir/EventLoopThread.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/hslMuduo.dir/EventLoopThread.s: cmake_force
 CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o: /usr/local/hslDir/Muduo/MyMuduoProject/EventLoopThreadPool.cc
 CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o -MF CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o.d -o CMakeFiles/hslMuduo.dir/EventLoopThreadPool.o -c /usr/local/hslDir/Muduo/MyMuduoProject/EventLoopThreadPool.cc
 
 CMakeFiles/hslMuduo.dir/EventLoopThreadPool.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/hslMuduo.dir/EventLoopThreadPool.s: cmake_force
 CMakeFiles/hslMuduo.dir/InetAddress.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/InetAddress.o: /usr/local/hslDir/Muduo/MyMuduoProject/InetAddress.cc
 CMakeFiles/hslMuduo.dir/InetAddress.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hslMuduo.dir/InetAddress.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hslMuduo.dir/InetAddress.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/InetAddress.o -MF CMakeFiles/hslMuduo.dir/InetAddress.o.d -o CMakeFiles/hslMuduo.dir/InetAddress.o -c /usr/local/hslDir/Muduo/MyMuduoProject/InetAddress.cc
 
 CMakeFiles/hslMuduo.dir/InetAddress.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/hslMuduo.dir/InetAddress.s: cmake_force
 CMakeFiles/hslMuduo.dir/Logger.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Logger.o: /usr/local/hslDir/Muduo/MyMuduoProject/Logger.cc
 CMakeFiles/hslMuduo.dir/Logger.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hslMuduo.dir/Logger.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hslMuduo.dir/Logger.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Logger.o -MF CMakeFiles/hslMuduo.dir/Logger.o.d -o CMakeFiles/hslMuduo.dir/Logger.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Logger.cc
 
 CMakeFiles/hslMuduo.dir/Logger.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/hslMuduo.dir/Logger.s: cmake_force
 CMakeFiles/hslMuduo.dir/Poller.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Poller.o: /usr/local/hslDir/Muduo/MyMuduoProject/Poller.cc
 CMakeFiles/hslMuduo.dir/Poller.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hslMuduo.dir/Poller.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hslMuduo.dir/Poller.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Poller.o -MF CMakeFiles/hslMuduo.dir/Poller.o.d -o CMakeFiles/hslMuduo.dir/Poller.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Poller.cc
 
 CMakeFiles/hslMuduo.dir/Poller.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/hslMuduo.dir/Poller.s: cmake_force
 CMakeFiles/hslMuduo.dir/Socket.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Socket.o: /usr/local/hslDir/Muduo/MyMuduoProject/Socket.cc
 CMakeFiles/hslMuduo.dir/Socket.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hslMuduo.dir/Socket.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hslMuduo.dir/Socket.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Socket.o -MF CMakeFiles/hslMuduo.dir/Socket.o.d -o CMakeFiles/hslMuduo.dir/Socket.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Socket.cc
 
 CMakeFiles/hslMuduo.dir/Socket.i: cmake_force
@@ -237,10 +251,24 @@ CMakeFiles/hslMuduo.dir/Socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hslMuduo.dir/Socket.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/local/hslDir/Muduo/MyMuduoProject/Socket.cc -o CMakeFiles/hslMuduo.dir/Socket.s
 
+CMakeFiles/hslMuduo.dir/TcpConnection.o: CMakeFiles/hslMuduo.dir/flags.make
+CMakeFiles/hslMuduo.dir/TcpConnection.o: /usr/local/hslDir/Muduo/MyMuduoProject/TcpConnection.cc
+CMakeFiles/hslMuduo.dir/TcpConnection.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hslMuduo.dir/TcpConnection.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/TcpConnection.o -MF CMakeFiles/hslMuduo.dir/TcpConnection.o.d -o CMakeFiles/hslMuduo.dir/TcpConnection.o -c /usr/local/hslDir/Muduo/MyMuduoProject/TcpConnection.cc
+
+CMakeFiles/hslMuduo.dir/TcpConnection.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hslMuduo.dir/TcpConnection.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/local/hslDir/Muduo/MyMuduoProject/TcpConnection.cc > CMakeFiles/hslMuduo.dir/TcpConnection.i
+
+CMakeFiles/hslMuduo.dir/TcpConnection.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hslMuduo.dir/TcpConnection.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/local/hslDir/Muduo/MyMuduoProject/TcpConnection.cc -o CMakeFiles/hslMuduo.dir/TcpConnection.s
+
 CMakeFiles/hslMuduo.dir/TcpServer.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/TcpServer.o: /usr/local/hslDir/Muduo/MyMuduoProject/TcpServer.cc
 CMakeFiles/hslMuduo.dir/TcpServer.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hslMuduo.dir/TcpServer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hslMuduo.dir/TcpServer.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/TcpServer.o -MF CMakeFiles/hslMuduo.dir/TcpServer.o.d -o CMakeFiles/hslMuduo.dir/TcpServer.o -c /usr/local/hslDir/Muduo/MyMuduoProject/TcpServer.cc
 
 CMakeFiles/hslMuduo.dir/TcpServer.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/hslMuduo.dir/TcpServer.s: cmake_force
 CMakeFiles/hslMuduo.dir/Thread.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Thread.o: /usr/local/hslDir/Muduo/MyMuduoProject/Thread.cc
 CMakeFiles/hslMuduo.dir/Thread.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hslMuduo.dir/Thread.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/hslMuduo.dir/Thread.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Thread.o -MF CMakeFiles/hslMuduo.dir/Thread.o.d -o CMakeFiles/hslMuduo.dir/Thread.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Thread.cc
 
 CMakeFiles/hslMuduo.dir/Thread.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/hslMuduo.dir/Thread.s: cmake_force
 CMakeFiles/hslMuduo.dir/Timestamp.o: CMakeFiles/hslMuduo.dir/flags.make
 CMakeFiles/hslMuduo.dir/Timestamp.o: /usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.cc
 CMakeFiles/hslMuduo.dir/Timestamp.o: CMakeFiles/hslMuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hslMuduo.dir/Timestamp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/hslMuduo.dir/Timestamp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hslMuduo.dir/Timestamp.o -MF CMakeFiles/hslMuduo.dir/Timestamp.o.d -o CMakeFiles/hslMuduo.dir/Timestamp.o -c /usr/local/hslDir/Muduo/MyMuduoProject/Timestamp.cc
 
 CMakeFiles/hslMuduo.dir/Timestamp.i: cmake_force
@@ -282,6 +310,7 @@ CMakeFiles/hslMuduo.dir/Timestamp.s: cmake_force
 # Object files for target hslMuduo
 hslMuduo_OBJECTS = \
 "CMakeFiles/hslMuduo.dir/Acceptor.o" \
+"CMakeFiles/hslMuduo.dir/Buffer.o" \
 "CMakeFiles/hslMuduo.dir/Channel.o" \
 "CMakeFiles/hslMuduo.dir/CurrentThread.o" \
 "CMakeFiles/hslMuduo.dir/DefaultPoller.o" \
@@ -293,6 +322,7 @@ hslMuduo_OBJECTS = \
 "CMakeFiles/hslMuduo.dir/Logger.o" \
 "CMakeFiles/hslMuduo.dir/Poller.o" \
 "CMakeFiles/hslMuduo.dir/Socket.o" \
+"CMakeFiles/hslMuduo.dir/TcpConnection.o" \
 "CMakeFiles/hslMuduo.dir/TcpServer.o" \
 "CMakeFiles/hslMuduo.dir/Thread.o" \
 "CMakeFiles/hslMuduo.dir/Timestamp.o"
@@ -301,6 +331,7 @@ hslMuduo_OBJECTS = \
 hslMuduo_EXTERNAL_OBJECTS =
 
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Acceptor.o
+/usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Buffer.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Channel.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/CurrentThread.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/DefaultPoller.o
@@ -312,12 +343,13 @@ hslMuduo_EXTERNAL_OBJECTS =
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Logger.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Poller.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Socket.o
+/usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/TcpConnection.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/TcpServer.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Thread.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/Timestamp.o
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/build.make
 /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so: CMakeFiles/hslMuduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/usr/local/hslDir/Muduo/MyMuduoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library /usr/local/hslDir/Muduo/MyMuduoProject/lib/libhslMuduo.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hslMuduo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
