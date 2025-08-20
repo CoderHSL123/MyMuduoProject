@@ -71,7 +71,9 @@ void EPollPoller::updateChannel(Channel*channel){
 
         channel->set_index(kAdded);
         update(EPOLL_CTL_ADD,channel);
-    }else{
+    }
+    else
+    {
         //此channel处于监听列表中
         int fd = channel->fd();
         //判断channel是否设置了事件

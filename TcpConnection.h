@@ -39,7 +39,8 @@ public:
     bool connected() const {return state_==StateE::kConnected;}
     bool disConnected() const {return state_==StateE::kDisconnected;}
     //发送数据
-    void send(const void* message,int len);
+    void send(const std::string &buf);
+
     //关闭连接
     void shutdown();
 
@@ -48,13 +49,16 @@ public:
     void setCloseCallback(const CloseCallback& cb){ closeCallback_ = std::move(cb);}
     void setHighWaterMarkCallback(const HighWaterMarkCallback& cb,size_t highWaterMark)
     { highWaterMarkCallback_ = std::move(cb); highWaterMark_=highWaterMark_;}
+    void setWriteCompleteCallback(const WriteCompleteCallback& cb){ writeCompleteCallback_ = std::move(cb);}
     //连接建立
     void connectEstablished();
     //连接销毁
     void connectDestroyed();
-
     
 private:
+
+
+
     enum StateE{kDisconnected,kConnecting,kConnected,kDisconnecting};
 
     void setState(StateE state) {state_ = state;}
@@ -63,7 +67,7 @@ private:
     void handleWrite();
     void handleClose();
     void handleError();
-    void sendInLoop();
+    void sendInLoop(const void* message,size_t len);
 
     void shutdownInLoop();
 
